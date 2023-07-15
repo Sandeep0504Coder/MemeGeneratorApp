@@ -1,38 +1,122 @@
-.App {
-  text-align: center;
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body{
+  height:100vh;
   display: flex;
   flex-direction: column;
+  background-color: #16001d;
+}
+.nav{
+  display:flex;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-color: #21222a;
+  height:90px;
+  padding:30px 25px;
+}
+.foot{
+  text-align: center;
+  background-color: black;
+  width:100%;
+  
+  margin-top: auto;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.foot h3{
+  padding:7px;
+}
+nav h3{
+  margin:0;
+  margin-right: auto;
+  color:#61DAFB;
+  font-size: 22px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-logo{
+  width: 40px;
+  margin-right: 7px;
 }
+.nav-items{
+  list-style:none;
+  display:flex;
+  margin:0;
+  color: #DEEBF8;
+}
+.nav-items li{
+  padding: 10px;
+}
+.form{
+  display:grid;
+  grid-template:40px 40px/1fr 1fr;
+gap:17px;
+}
+.form-input{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: sans-serif;
+  color: #61DAFB;
+  margin: 30px 200px 30px 150px;
+  width: 600px;
+  height: 50px;
+  border-radius: 10px;
+  border:none;
+}
+.form-button{
+  margin:10vh 41.5vw ;
+  width:300px;
+  height:50px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: sans-serif;
+  background-color:rgb(0, 140, 255);
+  border-radius: 20px;
+  border:none;
+  text-align: center;
+  grid-column: 1/-1;
+  
+}
+.form-button:hover{
+  color:rgb(0, 140, 255);
+  background-color: white;
+  box-shadow: 0px 8px 5px -5px rgb(0, 140, 255);;
+}
+.meme{
+  margin-top:200px;
+  position: relative;
+  text-align: center;
+  color: #61DAFB;
+  margin-bottom: 110px;
+}
+.meme-img{
+  height: 360px;
+  width:480px;
+  
+}
+form {
+  /*padding: 36px;*/
+}
+.topText{
+  position: absolute;
+  top:10px;
+  left:800px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+.bottomText{
+  position: absolute;
+  bottom:10px;
+  left:800px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: sans-serif; 
+}
+
+  
